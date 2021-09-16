@@ -1,0 +1,24 @@
+html
+	include head.pug
+	body
+		section.intro
+			.intro__imagen: img(src="../images/intro.jpg")
+			.intro__contenido
+				span.intro__categoria Noticias
+				h1.intro__titulo Cyberpunk 2077 tiene tres prologos distintos
+			.intro__autor
+				img(src="../images/avatar.jpg")
+				span.intro__autor-titulo Autor
+				span.intro__autor-nombre John Wick
+		article.articulo--principal
+			p.articulo--principal__intro En Cyberpunk 2077 los jugadores podrÃ¡n seleccionar entre tres historias de origen diferentes, cada una presentando una ubicaciÃ³n de partida distinta para su personaje.
+			p Conversando con VG247, el diseÃ±ador Pawel Sasko explicÃ³ un sistema que CD Projekt RED llama "Lifepaths" (caminos de vida), que en la prÃ¡ctica suena muy similar a las historias sobre el origen del personaje de Dragon Age: Origins.
+			p Uno de estos caminos de vida comienza en los Badlands, las Ã¡ridas tierras que rodean Night City (suponemos que es el Nomad). CD Projekt RED no ha ofrecido descripciÃ³n de las otras Ã¡reas, pero parece sensato suponer que los personajes de Corpo podrÃ­an comenzar en un distrito mÃ¡s corporativo de Night City, mientras que Street Kids podrÃ­an provenir de Ã¡reas de barrios marginales.
+			h3 Noticias, fecha de lanzamiento y plataformas de Cyberpunk 2077
+			p En otras noticias, recientemente descubrimos que CD Projekt RED tiene planes de desarrollar tres juegos Cyberpunk, y que Cyberpunk 2077 contarÃ¡ con tramas romÃ¡nticas similares a las que vimos en The Witcher 3. Si el romance no es su estilo, no se preocupen, podrÃ¡n ser tan malvados como deseen gracias a que Cyberpunk 2077 no tendrÃ¡ un sistema de moralidad.
+			p Cyberpunk 2077 se pondrÃ¡ disponible el 16 de abril de 2020 y se lanzarÃ¡ en versiones para PC, PlayStation 4 y Xbox One.
+			h2 No te Pierdas...
+		section.contenedor--cajas
+			+caja("xbox.jpg", "Xbox", "Conoce las actualizaciones de Game Pass", "A una semana terminado el E3, Microsoft anunciÃ³ la 1era rotaciÃ³n de juegos para Xbox")
+			+caja("fortnite.jpg", "Fortnite", "Fortnite une fuerzas con Stranger Things", "Portales hacia el Upside Down han aparecido dentro de Fortnite, y aunque no funcionan igual.")
+			+caja("cuphead.jpg", "Cuphead", "Cuphead se atrasa hasta el aÃ±o 2020", "Los miembros de Studio MDHR revelan la razÃ³n detrÃ¡s del atraso de la fecha de lanzamiento.")

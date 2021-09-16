@@ -1,0 +1,19 @@
+.contenido {
+  margin-bottom: 40px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: color-claro;
+}
+.caja__contenido span {
+  color: color-secundario;
+}
+.caja__contenido h3 {
+  font-weight: normal;
+}
